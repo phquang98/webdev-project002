@@ -1,12 +1,7 @@
 # This file is combined between github.com/github/gitignore and CRA gitignore
 
-# Compiled output
-/dist
-/tmp
-/out-tsc
-
 # Production
-# /build
+/build
 
 # Runtime data
 pids
