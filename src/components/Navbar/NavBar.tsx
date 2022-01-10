@@ -48,7 +48,7 @@ const NavBar = (): JSX.Element => {
           <div className="navbar-container container">
             <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
               <MdFingerprint className="navbar-icon" />
-              EZBank
+              LAVISH
             </Link>
             <div
               className="menu-icon"
