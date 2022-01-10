@@ -6,8 +6,9 @@ import NavBar from "./components/Navbar/NavBar";
 const App = (): JSX.Element => {
   return (
     <>
-      <div style={{ textAlign: "center" }}>
+      <div>
         <NavBar />
+        <Outlet />
       </div>
     </>
   );
