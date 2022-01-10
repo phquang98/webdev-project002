@@ -6,7 +6,7 @@
 /out-tsc
 
 # Production
-/build
+# /build
 
 # Runtime data
 pids
