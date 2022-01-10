@@ -68,7 +68,7 @@ const NavBar = (): JSX.Element => {
               </li>
               {/*  */}
               <li className="nav-item">
-                <Link to="service" className="nav-links" onClick={closeMobileMenu}>
+                <Link to="services" className="nav-links" onClick={closeMobileMenu}>
                   Services
                 </Link>
               </li>

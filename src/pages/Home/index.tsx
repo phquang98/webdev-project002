@@ -1,8 +1,9 @@
 import HeroSection, { HeroSectionProps } from "../../components/HeroSection";
+import PricingSection from "../../components/PricingSection";
 
 type HomePageProps = HeroSectionProps & { customPropNe: string };
 
-const HomePageDataOne: HomePageProps = {
+export const HomePageDataOne: HomePageProps = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
@@ -53,7 +54,7 @@ export const HomePageDataFour: HomePageProps = {
   lightTextDesc: true,
   topLine: "DATA ANALYTICS",
   headline: "Every transaction is stored on our secure cloud database",
-  description: "Never ever have to worry again about saved reciepts. We store your data, so you can access it anytime.",
+  description: "Never ever have to worry again about saved receipts. We store your data, so you can access it anytime.",
   btnLabel: "Sign Up Now",
   imgStart: "start",
   img: "images/svg-8.svg",
@@ -67,6 +68,7 @@ const HomePage = (): JSX.Element => {
       <HeroSection {...HomePageDataOne} />
       <HeroSection {...HomePageDataThree} />
       <HeroSection {...HomePageDataTwo} />
+      <PricingSection />
       <HeroSection {...HomePageDataFour} />
     </>
   );

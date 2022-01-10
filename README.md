@@ -13,6 +13,8 @@ Status: Ongoing
 
 - [ ] finish the exercise
 - [ ] change css to styled-cpn
+- [ ] add some simple page to prevent ghost/404 page
+- [ ] code refactor, some part of this website is not DRY
 
 ## Notes
 
