@@ -20,10 +20,11 @@ const NavBar = (): JSX.Element => {
   };
 
   //
-  const closeMobileMenu = () => {
+  const closeMobileMenu: React.MouseEventHandler<HTMLAnchorElement> = (_evt) => {
     setClick(false);
   };
-  const showNVBtn = () => {
+
+  const showNVBtn = (): void => {
     if (window.innerWidth <= 960) {
       setButton(false);
     } else {
@@ -85,7 +86,7 @@ const NavBar = (): JSX.Element => {
                     <XButton btnStyle="btn--outline" btnSize="btn--medium" text="SIGN UP" />
                   </Link>
                 ) : (
-                  <Link to="signUp" className="btn-link">
+                  <Link to="signUp" className="btn-link" onClick={closeMobileMenu}>
                     <XButton btnStyle="btn--outline" btnSize="btn--mobile" text="SIGN UP" />
                   </Link>
                 )}
