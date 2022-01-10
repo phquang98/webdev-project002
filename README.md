@@ -1,7 +1,8 @@
 # Simple One Page Website
 
 Last updated: 07/01/2022  
-Status: On Hold
+Status: On Hold  
+Demo: <https://phquang98.github.io/webdev-project002/>
 
 ## Tech
 

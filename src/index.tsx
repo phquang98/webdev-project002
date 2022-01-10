@@ -10,7 +10,7 @@ import SignUpPage from "./pages/SignUp";
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/webdev-project002">
       <Routes>
         {/* Use this pattern (1 big Route) to maintain Header + Footer, TODO: maybe sth better ? */}
         <Route path="/" element={<App />}>
