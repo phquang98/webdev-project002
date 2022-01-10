@@ -24,7 +24,5 @@ React + TS
 
 ## Notes
 
-WARNING: `.gitigonre` remove `/build` just to make a Github Pages for easy viewing.
-
 - if want to use `div` as a button, read [this](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/no-static-element-interactions.md) first
 - use `keyDown`, `keyPress` deprecated
