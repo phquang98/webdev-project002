@@ -1,7 +1,3 @@
-:root {
-  --primary: #fff;
-}
-
 .btn {
   padding: 8px 20px;
   border-radius: 4px;
@@ -11,13 +7,13 @@
   white-space: nowrap;
 }
 
-.btn--primary {
+.normal {
   background-color: #fff;
   color: #242424;
   border: 1px solid #fff;
 }
 
-.btn--outline {
+.outline {
   background-color: #242424;
   color: #fff;
   padding: 8px 20px;
@@ -77,36 +73,26 @@
   width: 100%;
 }
 
-.blue {
-  background-color: #276afb;
-  color: #fff;
-  border: none;
-}
-
-.red {
-  background-color: #f00946;
-  color: #fff;
-  border: none;
-}
-
-.green {
-  background-color: #25ce4a;
-  color: #fff;
-  border: none;
-}
-
-.green:hover {
-  background-color: #242424;
-}
-
 .primary {
-  background-color: #242424;
   color: #fff;
+  background-color: #242424;
   border: none;
 }
 
 .primary:hover {
-  background-color: #fff;
   color: #242424;
+  background-color: #fff;
   border: none;
+}
+
+.secondary {
+  color: #fff;
+  background-color: #276afb;
+  border: none;
+}
+
+.secondary:hover {
+  color: #fff;
+  background-color: #f00946;
+  transition: all 0.2s ease-out;
 }

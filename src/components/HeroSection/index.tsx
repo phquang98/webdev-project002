@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 import "./style.css";
-import XButton from "../XButton/XButton";
+import XButton from "../XButton";
 
 export type HeroSectionProps = {
   lightBg: boolean;
@@ -43,7 +43,7 @@ const HeroSection = ({
                 <h1 className={lightText ? "heading" : "heading dark"}>{headline}</h1>
                 <p className={lightTextDesc ? "home__hero-subtitle" : "home__hero-subtitle dark"}>{description}</p>
                 <Link to="signUp">
-                  <XButton btnSize="btn--huge" btnColor="blue" text={btnLabel} />
+                  <XButton btnStyle="hero" text={btnLabel} />
                 </Link>
               </div>
             </div>

@@ -5,7 +5,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { IconContext } from "react-icons";
 
 import "./NavBar.css";
-import XButton from "../XButton/XButton";
+import XButton from "../XButton";
 
 const NavBar = (): JSX.Element => {
   const [click, setClick] = useState<boolean>();
@@ -83,11 +83,11 @@ const NavBar = (): JSX.Element => {
               <li className="nav-btn">
                 {button ? (
                   <Link to="signUp" className="btn-link">
-                    <XButton btnStyle="btn--outline" btnSize="btn--medium" text="SIGN UP" />
+                    <XButton btnStyle="navbar" text="SIGN UP" />
                   </Link>
                 ) : (
                   <Link to="signUp" className="btn-link" onClick={closeMobileMenu}>
-                    <XButton btnStyle="btn--outline" btnSize="btn--mobile" text="SIGN UP" />
+                    <XButton btnStyle="mobile" text="SIGN UP" />
                   </Link>
                 )}
               </li>

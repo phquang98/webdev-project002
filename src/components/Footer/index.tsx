@@ -4,7 +4,7 @@ import { FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin } from "react
 import { MdFingerprint } from "react-icons/md";
 
 import "./styles.css";
-import XButton from "../XButton/XButton";
+import XButton from "../XButton";
 
 const Footer = (): JSX.Element => {
   return (
@@ -18,7 +18,7 @@ const Footer = (): JSX.Element => {
           <div className="input-areas">
             <form>
               <input className="footer-input" name="email" type="email" placeholder="Your Email" />
-              <XButton btnStyle="btn--outline" text="Subscribe"></XButton>
+              <XButton btnStyle="navbar" text="Subscribe"></XButton>
             </form>
           </div>
         </section>

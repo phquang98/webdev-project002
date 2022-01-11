@@ -6,7 +6,7 @@ import { IconContext } from "react-icons/lib";
 import { Link } from "react-router-dom";
 
 import "./styles.css";
-import XButton from "../XButton/XButton";
+import XButton from "../XButton";
 
 const PricingSection = (): JSX.Element => {
   return (
@@ -30,7 +30,7 @@ const PricingSection = (): JSX.Element => {
                     <li>2% CashBack</li>
                     <li>10.000$ Limit</li>
                   </ul>
-                  <XButton text="Choose Plan" btnSize="btn--huge" btnColor="primary" />
+                  <XButton btnStyle="hero" text="Choose Plan" />
                 </div>
               </Link>
 
@@ -48,7 +48,7 @@ const PricingSection = (): JSX.Element => {
                     <li>5% CashBack</li>
                     <li>25.000$ Limit</li>
                   </ul>
-                  <XButton text="Choose Plan" btnSize="btn--huge" btnColor="primary" />
+                  <XButton btnStyle="hero" text="Choose Plan" />
                 </div>
               </Link>
 
@@ -66,7 +66,7 @@ const PricingSection = (): JSX.Element => {
                     <li>10% CashBack</li>
                     <li>100.000$ Limit</li>
                   </ul>
-                  <XButton text="Choose Plan" btnSize="btn--huge" btnColor="primary" />
+                  <XButton btnStyle="hero" text="Choose Plan" />
                 </div>
               </Link>
             </div>
